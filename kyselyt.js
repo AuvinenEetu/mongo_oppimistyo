@@ -99,3 +99,16 @@ db.bets.aggregate([
     },
   },
 ]);
+
+// Näyttää kaikki tapahtumat joihin voi vielä tehdä vetoja
+db.events
+  .find(
+    {
+      status: 'avoin',
+      alkamisaika: { $gt: new Date() },
+    },
+    {
+      luoja: 0,
+    },
+  )
+  .sort({ alkamisaika: 1 });
