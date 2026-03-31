@@ -1,0 +1,26 @@
+[
+{
+  "nimi": {
+    "etunimi": "Matti",
+    "sukunimi": "Meikäläinen"
+  },
+  "sahkoposti": "matti@gmail.fi"
+},
+{
+
+  "nimi": {
+    "etunimi": "Maija",
+    "sukunimi": "Meikäläinen"
+  },
+  "kayttajatunnus": "maijameika",
+  "sahkoposti": "maija123@outlook.com"
+},
+{
+  "nimi": {
+    "etunimi": "John",
+    "sukunimi": "Doe"
+  },
+  "kayttajatunnus": "johnd1",
+  "sahkoposti": "johndoe@gmail.com"
+}
+]

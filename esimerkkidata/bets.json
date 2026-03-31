@@ -1,0 +1,62 @@
+[
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338351" },
+    "pelaajan_nimi": "Matti Meikäläinen",
+    "tapahtuma_id": { "$oid": "69ca586983788ea4e78816f9" },
+    "tapahtuman_nimi": "Jääkiekon MM: Suomi - Ruotsi",
+    "valinta": "Suomi",
+    "panos": 50,
+    "kerroin": 1.3,
+    "tila": "voitto"
+  },
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338351" },
+    "pelaajan_nimi": "Matti Meikäläinen",
+    "tapahtuma_id": { "$oid": "69cbc5cb682d2e234d338353" },
+    "tapahtuman_nimi": "Valioliiga: Arsenal - Manchester City",
+    "valinta": "Arsenal",
+    "panos": 30,
+    "kerroin": 2.4,
+    "tila": "avoin"
+  },
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338352" },
+    "pelaajan_nimi": "Maija Meikäläinen",
+    "tapahtuma_id": { "$oid": "69ca586983788ea4e78817a2" },
+    "tapahtuman_nimi": "Valorant Champions: Fnatic vs Sentinels",
+    "valinta": "Fnatic",
+    "panos": 40,
+    "kerroin": 1.65,
+    "tila": "voitto"
+  },
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338352" },
+    "pelaajan_nimi": "Maija Meikäläinen",
+    "tapahtuma_id": { "$oid": "69ca586983788ea4e78817a1" },
+    "tapahtuman_nimi": "Dota 2: The International Grand Final",
+    "valinta": "Gaimin Gladiators",
+    "panos": 25,
+    "kerroin": 1.95,
+    "tila": "avoin"
+  },
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338353" },
+    "pelaajan_nimi": "John Doe",
+    "tapahtuma_id": { "$oid": "69ca586983788ea4e78816f9" },
+    "tapahtuman_nimi": "Jääkiekon MM: Suomi - Ruotsi",
+    "valinta": "Ruotsi",
+    "panos": 20,
+    "kerroin": 2.0,
+    "tila": "häviö"
+  },
+  {
+    "pelaaja_id": { "$oid": "69cbc5cb682d2e234d338353" },
+    "pelaajan_nimi": "John Doe",
+    "tapahtuma_id": { "$oid": "69ca586983788ea4e78817a4" },
+    "tapahtuman_nimi": "Oscar-gaala 2026: Paras elokuva",
+    "valinta": "Dune Part 3",
+    "panos": 100,
+    "kerroin": 1.5,
+    "tila": "avoin"
+  }
+]
