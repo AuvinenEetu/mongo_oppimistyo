@@ -13,7 +13,7 @@ Tästä repositoriosta löydät vedonlyöntisovellukselle rakennetun MongoDB-tie
 2. Avaa powershell ja siirry kloonattuun kansioon `cd .\mongo_oppimistyo\`
 3. Aja komento `docker compose up -d`
 4. Pystytä kanta ja lisää esimerkkidatat seuraavilla komennoilla (HUOM! Vaihda kontinnimi pystyttämäsi docker kontin nimeksi, minun tapauksessani mongo-server)
-5. `docker exec -i <font color="red">kontinnimi</font> mongoimport -u root -p password --authenticationDatabase=admin --drop -d vedonlyontikanta -c users --jsonArray < esimerkkidata/users.json`
+5. `docker exec -i <p style="color:red">kontinnimi</p> mongoimport -u root -p password --authenticationDatabase=admin --drop -d vedonlyontikanta -c users --jsonArray < esimerkkidata/users.json`
 6. `docker exec -i <font color="red">kontinnimi</font> mongoimport -u root -p password --authenticationDatabase=admin --drop -d vedonlyontikanta -c users --jsonArray < esimerkkidata/events.json`
 7. `docker exec -i <font color="red">kontinnimi</font> mongoimport -u root -p password --authenticationDatabase=admin --drop -d vedonlyontikanta -c users --jsonArray < esimerkkidata/bets.json`
 
